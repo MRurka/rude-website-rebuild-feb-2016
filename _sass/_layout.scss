@@ -1,0 +1,58 @@
+
+.site-container {
+    padding: 10em 5vw 0;
+}
+
+.container {
+    border:2px solid pink;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.content {
+    width:100vw;
+    max-width: 100%;
+    height:100vh;
+    max-height: 100%;
+    display: none;
+}
+
+section.design {
+    .items {
+        .item-container {
+            width: 33%;
+            height:10em;
+            border:2px solid black;
+            display: inline-block;
+            a {
+                background:pink;
+                display: block;
+                height:100%;
+                &:hover {
+                    background:blue;
+                }
+                .item-content {
+                    h2 {
+
+                    }
+                    h3 {
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

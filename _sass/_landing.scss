@@ -1,0 +1,24 @@
+.landing {
+    width:100%;
+    top: calc(50% - ( ( 300px * 0.69333 ) / 2) );
+    top: calc(50% - 150px);
+    position: absolute;
+    transition: all 1s ease;
+
+    .logo {
+        width:100%;
+
+        svg {
+          max-width: 300px;
+          margin: 0 auto;
+          display: block;
+          transition: opacity 3s ease .3s;
+        }
+    }
+}
+
+body.loaded {
+  .landing .logo svg {
+    opacity:.1;
+  }
+}

@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+a {
+  text-decoration: none; }
+
+.site-container {
+  padding: 10em 5vw 0; }
+
+.container {
+  border: 2px solid pink;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+section.content {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: none; }
+
+section.design .items .item-container {
+  width: 33%;
+  height: 10em;
+  border: 2px solid black;
+  display: inline-block; }
+  section.design .items .item-container a {
+    background: pink;
+    display: block;
+    height: 100%; }
+    section.design .items .item-container a:hover {
+      background: blue; }
+
+body {
+  display: none; }
+
+#jpreOverlay {
+  background: #fff; }
+
+#jpreSlide {
+  z-index: 999;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0 !important;
+  left: 0 !important; }
+  #jpreSlide svg {
+    fill: #fff;
+    max-width: 300px;
+    display: block;
+    max-height: 300px;
+    top: calc(50% - 150px);
+    position: relative;
+    margin: auto auto; }
+
+#jSplash {
+  height: 100%; }
+
+#jpreLoader {
+  width: 300px;
+  height: 300px;
+  top: calc(50% - 150px) !important;
+  left: calc(50% - 150px) !important;
+  transform: rotate(270deg); }
+
+#jpreBar {
+  background-size: 300px;
+  background: #000; }
+
+#jprePercentage {
+  color: #000;
+  transform: rotate(90deg);
+  float: left;
+  font-weight: 300;
+  font-size: 1.3em; }
+
+@media (max-width: 600px) {
+  #jpreSlide svg {
+    fill: #fff;
+    max-width: 250px;
+    display: block;
+    max-height: 300px;
+    top: calc(50% - 125px);
+    position: relative;
+    margin: auto auto; }
+
+  #jpreLoader {
+    width: 250px;
+    height: 250px;
+    top: calc(50% - 125px) !important;
+    left: calc(50% - 125px) !important;
+    transform: rotate(270deg); }
+
+  #jpreBar {
+    background-size: 250px; } }
+#jpreButton {
+  display: none !important; }
+
+@-webkit-keyframes progress {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -60px -60px; } }
+@-moz-keyframes progress {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -60px -60px; } }
+@-ms-keyframes progress {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -60px -60px; } }
+@-o-keyframes progress {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -60px -60px; } }
+@keyframes progress {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -60px -60px; } }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; }
+  nav ul li {
+    width: calc(100% / 3);
+    display: inline;
+    text-align: center;
+    float: left; }
+    nav ul li a {
+      padding: 1em 2em;
+      display: inline-block;
+      background: #eee;
+      cursor: pointer; }
+
+nav ul li {
+  opacity: 0; }
+
+body.loaded nav ul li {
+  transform: translateY(-3em);
+  -ms-animation-name: website-ready-nav-drop;
+  -ms-animation-duration: 2s;
+  -ms-animation-fill-mode: forwards;
+  -webkit-animation-name: website-ready-nav-drop;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: website-ready-nav-drop;
+  animation-duration: 2s;
+  animation-fill-mode: forwards; }
+  body.loaded nav ul li:nth-child(1) {
+    -ms-animation-delay: 300ms;
+    -webkit-animation-delay: 300ms;
+    animation-delay: 300ms; }
+  body.loaded nav ul li:nth-child(2) {
+    -ms-animation-delay: 500ms;
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms; }
+  body.loaded nav ul li:nth-child(3) {
+    -ms-animation-delay: 700ms;
+    -webkit-animation-delay: 700ms;
+    animation-delay: 700ms; }
+
+@-ms-keyframes website-ready-nav-drop {
+  0% {
+    transform: translateY(-3em);
+    opacity: 0;
+    display: block; }
+  100% {
+    transform: translateY(0em);
+    opacity: 1; } }
+@-webkit-keyframes website-ready-nav-drop {
+  0% {
+    transform: translateY(-3em);
+    opacity: 0;
+    display: block; }
+  100% {
+    transform: translateY(0em);
+    opacity: 1; } }
+@keyframes website-ready-nav-drop {
+  0% {
+    transform: translateY(-3em);
+    opacity: 0;
+    display: block; }
+  100% {
+    transform: translateY(0em);
+    opacity: 1; } }
+.landing {
+  width: 100%;
+  top: calc(50% - ( ( 300px * 0.69333 ) / 2) );
+  top: calc(50% - 150px);
+  position: absolute;
+  transition: all 1s ease; }
+  .landing .logo {
+    width: 100%; }
+    .landing .logo svg {
+      max-width: 300px;
+      margin: 0 auto;
+      display: block;
+      transition: opacity 3s ease .3s; }
+
+body.loaded .landing .logo svg {
+  opacity: .1; }
+
+.modal.current {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background-color: #fff; }
+
+.modal.backdrop {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 8; }
