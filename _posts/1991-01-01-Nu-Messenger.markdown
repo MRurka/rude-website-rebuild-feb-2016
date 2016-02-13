@@ -1,6 +1,6 @@
 ---
 
-layout: gallery
+layout: post
 date:   2015-08-09 21:35:54
 categories: portfolio
 port-id: 8ru

@@ -1,6 +1,6 @@
 ---
 
-layout: gallery
+layout: post
 date:   2015-08-10 21:35:54
 categories: portfolio
 port-id: 7ru

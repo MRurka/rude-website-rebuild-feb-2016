@@ -1,6 +1,6 @@
 ---
 
-layout: gallery
+layout: post
 date:   2015-07-01 21:35:54
 categories: blog
 
