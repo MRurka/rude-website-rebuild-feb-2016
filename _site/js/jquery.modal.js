@@ -79,7 +79,7 @@
     block: function() {
       var initialOpacity = this.options.doFade ? 0 : this.options.opacity;
       this.$elm.trigger($.modal.BEFORE_BLOCK, [this._ctx()]);
-      this.blocker = $('<div class="modal backdrop"></div>').css({
+      this.blocker = $('<div></div>').css({
         // top: 0, right: 0, bottom: 0, left: 0,
         // width: "100%", height: "100%",
         // position: "fixed",
@@ -110,7 +110,7 @@
         this.closeButton = $('<a href="#close-modal" rel="modal:close" class="close-modal ' + this.options.closeClass + '">' + this.options.closeText + '</a>');
         this.$elm.append(this.closeButton);
       }
-      this.$elm.addClass(this.options.modalClass + ' current');
+      this.$elm.addClass(this.options.modalClass + '-post');
       this.center();
       if(this.options.doFade) {
         this.$elm.fadeIn(this.options.fadeDuration);

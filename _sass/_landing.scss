@@ -1,5 +1,5 @@
 .landing {
-    width:100%;
+    width:calc(100% - 10vw);
     top: calc(50% - ( ( 300px * 0.69333 ) / 2) );
     top: calc(50% - 150px);
     position: absolute;

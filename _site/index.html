@@ -189,6 +189,7 @@
         $("nav a").click(function(){
             var cls = $(this).attr('id')
             $(".content").fadeOut(500);
+            $(".modal-post").fadeOut(500);
             $('.' + cls).delay(500).fadeIn(1000);
             return false;
         })
@@ -196,8 +197,8 @@
 </script>
 <script>
     //
-    //
     // jPreloader
+    //
     $(document).ready( function() {
         var timer;  //timer for splash screen
         

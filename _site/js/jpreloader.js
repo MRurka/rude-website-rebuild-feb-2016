@@ -218,28 +218,28 @@
 		});
 		$('body').addClass('loaded');
 
-		$(document).ready( function() {
-	        $("body.loaded #typed").typed({
-	            strings: [
-	            	"Happy New Year!! :D<br>"
-	            	],
-	            typeSpeed: 15,
-	            typeDelay: 1600,
-	            startDelay: 2000,
-	            playDelay: 9900,
-	            backDelay: 1000,
-	            backSpeed: 2,
-	            loop: false,
-	            contentType: 'html', // or text
-	            // defaults to false for infinite loop
-	            loopCount: false,
-	            callback: function(){ foo(); },
-	            resetCallback: function() { newTyped(); }
-	        });
-	        $(".reset").click(function(){
-	            $("#typed").typed('reset');
-	        });
-	    });
+		// $(document).ready( function() {
+	 //        $("body.loaded #typed").typed({
+	 //            strings: [
+	 //            	"Happy New Year!! :D<br>"
+	 //            	],
+	 //            typeSpeed: 15,
+	 //            typeDelay: 1600,
+	 //            startDelay: 2000,
+	 //            playDelay: 9900,
+	 //            backDelay: 1000,
+	 //            backSpeed: 2,
+	 //            loop: false,
+	 //            contentType: 'html', // or text
+	 //            // defaults to false for infinite loop
+	 //            loopCount: false,
+	 //            callback: function(){ foo(); },
+	 //            resetCallback: function() { newTyped(); }
+	 //        });
+	 //        $(".reset").click(function(){
+	 //            $("#typed").typed('reset');
+	 //        });
+	 //    });
 	    function newTyped(){ /* A new typed object */ }
 	    function foo(){ console.log("Callback"); }
 	}

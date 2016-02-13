@@ -1,0 +1,106 @@
+
+.modal-post {
+    height:100%;
+    width:100%;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+    z-index: 9;
+    position: absolute;
+    background-color:#fff;
+    -webkit-overflow-scrolling: touch;
+
+    display: none;
+    opacity: 0;
+
+    $animation-name: modal-content-fade-in;
+    $animation-duration: 1s;
+    $animation-delay: .5s;
+    $animation-fill: forwards;
+
+    transition: opacity .5s ease;
+    -ms-animation-name: $animation-name;
+    -ms-animation-duration: $animation-duration;
+    -ms-animation-delay: $animation-delay;
+    -ms-animation-fill-mode: $animation-fill;
+    -webkit-animation-name: $animation-name;
+    -webkit-animation-duration: $animation-duration;
+    -webkit-animation-delay: $animation-delay;
+    -webkit-animation-fill-mode: $animation-fill;
+    animation-name: $animation-name;
+    animation-duration: $animation-duration;
+    animation-delay: $animation-delay;
+    animation-fill-mode: $animation-fill;
+}
+
+@-ms-keyframes #{$animation-name} {
+    0% {transform: translateY(2em); opacity:0; display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+}
+@-webkit-keyframes #{$animation-name} {
+    0% {transform: translateY(2em); opacity:0; display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+}
+@keyframes #{$animation-name} {
+    0% {transform: translateY(2em); opacity:0; display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+}
+
+.image-container {
+    img {
+        width:100%;
+        height:auto;
+    }
+    .w1 {
+        width:25%;
+    }
+    .w2 {
+        width:50%;
+    }
+    .w3 {
+        width:75%;
+    }
+    .w4 {
+        width: 100%;
+    }
+
+    // Tablet
+    @media screen and (max-width: $screen-medium) {
+        .w1 {
+        width:50%;
+        }
+        .w2 {
+            width:50%;
+        }
+        .w3 {
+            width:100%;
+        }
+        .w4 {
+            width: 100%;
+        }
+    }
+    
+    // Phone
+    @media screen and (max-width: $screen-small) {
+        .w1 {
+            width:100%;
+        }
+        .w2 {
+            width:100%;
+        }
+        .w3 {
+            width:100%;
+        }
+        .w4 {
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
