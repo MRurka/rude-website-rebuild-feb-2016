@@ -1,6 +1,7 @@
 <div class="site-container">
     <div class="container">
         <h1 class="post-title">Jelly Invoice</h1>
+        <h2 class="post-subtitle">Jekyll based invoicing software for freelancers who can code a bit.</h1>
         <p>A flexible solution for producing invoices and keeping them neatly organized on your local or shared drive.</p>
 
 <p>Extending <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>’s ability to easily create static web pages with it’s blog-aware features, Jelly has been adapted to output invoices in place of blogs. Jelly calculates for you, hourly or fixed pricing, with or without tax needs.</p>
@@ -22,5 +23,11 @@ Plans for version 2.0 include the ability to import your invoice design from Ado
 And an early tease image for Jelly
 <img class="item w1" src="../img/port/norm/jelly-invoice-wide.jpg" alt="Promo photo for Jelly Invoice" /></p>
 
+        <script>
+            var $container = $('.image-container').masonry();
+            $container.imagesLoaded( function() {
+              $container.masonry();
+            });
+        </script>
     </div>
 </div>

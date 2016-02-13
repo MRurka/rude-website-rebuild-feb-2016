@@ -26,3 +26,58 @@
     right:0;
     z-index: 8;
 }
+
+.image-container {
+    img {
+        width:100%;
+        height:auto;
+    }
+    .w1 {
+        width:25%;
+    }
+    .w2 {
+        width:50%;
+    }
+    .w3 {
+        width:75%;
+    }
+    .w4 {
+        width: 100%;
+    }
+    // Tablet
+    @media screen and (max-width: $screen-medium) {
+        .w1 {
+        width:50%;
+        }
+        .w2 {
+            width:50%;
+        }
+        .w3 {
+            width:100%;
+        }
+        .w4 {
+            width: 100%;
+        }
+    }
+    // Phone
+    @media screen and (max-width: $screen-small) {
+        .w1 {
+            width:100%;
+        }
+        .w2 {
+            width:100%;
+        }
+        .w3 {
+            width:100%;
+        }
+        .w4 {
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+

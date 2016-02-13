@@ -276,3 +276,33 @@ body.loaded .landing .logo svg {
   left: 0;
   right: 0;
   z-index: 8; }
+
+.image-container img {
+  width: 100%;
+  height: auto; }
+.image-container .w1 {
+  width: 25%; }
+.image-container .w2 {
+  width: 50%; }
+.image-container .w3 {
+  width: 75%; }
+.image-container .w4 {
+  width: 100%; }
+@media screen and (max-width: 780px) {
+  .image-container .w1 {
+    width: 50%; }
+  .image-container .w2 {
+    width: 50%; }
+  .image-container .w3 {
+    width: 100%; }
+  .image-container .w4 {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  .image-container .w1 {
+    width: 100%; }
+  .image-container .w2 {
+    width: 100%; }
+  .image-container .w3 {
+    width: 100%; }
+  .image-container .w4 {
+    width: 100%; } }

@@ -1,0 +1,14 @@
+<section class="blog content">
+    <div class="container">
+        <div class="items">
+            {% for post in site.categories.blog %}
+                <div class="item-container">
+                    <a href="{{ post.url | prepend: site.baseurl }}" rel="modal:open">
+                        <div class="title">{{ post.title }}</div>
+                        <div class="desc">{{ post.subtitle }}</div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
