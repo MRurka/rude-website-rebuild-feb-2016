@@ -1,5 +1,53 @@
 
-.modal-post {
+.modal-backdrop {
+    height:100%;
+    width:100%;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+    z-index: 7;
+    position: absolute;
+    background-color:#fff;
+
+    // display: none;
+    opacity: 0;
+
+    $animation-name: modal-backdrop-fadein;
+    $animation-duration: 1s;
+    $animation-delay: 0;
+    $animation-fill: forwards;
+
+    transition: opacity .5s ease;
+    -ms-animation-name: $animation-name;
+    -ms-animation-duration: $animation-duration;
+    -ms-animation-delay: $animation-delay;
+    -ms-animation-fill-mode: $animation-fill;
+    -webkit-animation-name: $animation-name;
+    -webkit-animation-duration: $animation-duration;
+    -webkit-animation-delay: $animation-delay;
+    -webkit-animation-fill-mode: $animation-fill;
+    animation-name: $animation-name;
+    animation-duration: $animation-duration;
+    animation-delay: $animation-delay;
+    animation-fill-mode: $animation-fill;
+
+    @-ms-keyframes #{$animation-name} {
+    0% {opacity:0; display: block;}
+    100% {opacity:1;}
+    }
+    @-webkit-keyframes #{$animation-name} {
+        0% {opacity:0; display: block;}
+        100% {opacity:1;}
+    }
+    @keyframes #{$animation-name} {
+        0% {opacity:0; display: block;}
+        100% {opacity:1;}
+    }
+}
+
+.modal-content {
     height:100%;
     width:100%;
     bottom:0;
@@ -9,13 +57,12 @@
     margin:0;
     z-index: 9;
     position: absolute;
-    background-color:#fff;
     -webkit-overflow-scrolling: touch;
 
     display: none;
     opacity: 0;
 
-    $animation-name: modal-content-fade-in;
+    $animation-name: modal-content-fadein;
     $animation-duration: 1s;
     $animation-delay: .5s;
     $animation-fill: forwards;
@@ -33,20 +80,21 @@
     animation-duration: $animation-duration;
     animation-delay: $animation-delay;
     animation-fill-mode: $animation-fill;
+
+    @-ms-keyframes #{$animation-name} {
+    0% {transform: translateY(2em); opacity:0; display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+    }
+    @-webkit-keyframes #{$animation-name} {
+        0% {transform: translateY(2em); opacity:0; display: block;}
+        100% {transform: translateY(0em); opacity:1;}
+    }
+    @keyframes #{$animation-name} {
+        0% {transform: translateY(2em); opacity:0; display: block;}
+        100% {transform: translateY(0em); opacity:1;}
+    }
 }
 
-@-ms-keyframes #{$animation-name} {
-    0% {transform: translateY(2em); opacity:0; display: block;}
-    100% {transform: translateY(0em); opacity:1;}
-}
-@-webkit-keyframes #{$animation-name} {
-    0% {transform: translateY(2em); opacity:0; display: block;}
-    100% {transform: translateY(0em); opacity:1;}
-}
-@keyframes #{$animation-name} {
-    0% {transform: translateY(2em); opacity:0; display: block;}
-    100% {transform: translateY(0em); opacity:1;}
-}
 
 .image-container {
     img {
