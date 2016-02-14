@@ -13,10 +13,35 @@ nav {
             text-align: center;
             float:left;
             a {
-                padding:1em 2em;
+                padding: 1.5em 0 0 0;
                 display: inline-block;
-                background:#eee;
-                cursor:pointer;
+                cursor: pointer;
+                span {
+                    color: #333;
+                    color: #fff;
+                    font-size: .7em;
+                    letter-spacing: 6px;
+                    margin: 0 0 1em 0;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    display: inline-block;
+                }
+                svg {
+                    height: 1.4em;
+                    display: block;
+                    transition: all .25s ease;
+                    fill: $c-black;
+                }
+                &.active {
+                    svg {
+                        fill: $c-main;
+                    }
+                }
+                &:hover {
+                    svg {
+                        fill: $c-main-dark;
+                    }  
+                }
             }
         }
     }
@@ -24,7 +49,6 @@ nav {
 
 nav ul li {
     opacity: 0;
-    // @include transition(opacity 2s ease);
 }
 
 body.loaded nav ul li {

@@ -9,11 +9,16 @@
 <p><img class="item w1" src="../img/dailyui/002_@2x.jpg" alt="Credit Card Concept" />
 <img class="item w1" src="../img/dailyui/002-sketch_@2x.jpg" alt="Credit Card Concept - Sketches" /></p>
 
-        <script>
-            var $container = $('.image-container').masonry();
-            $container.imagesLoaded( function() {
-              $container.masonry();
-            });
-        </script>
     </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
 </div>

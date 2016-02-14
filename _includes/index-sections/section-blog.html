@@ -3,10 +3,10 @@
     <div class="container">
         <div class="items">
             {% for post in site.categories.blog %}
-                <div class="item-container">
+                <div class="item">
                     <a href="{{ post.url | prepend: site.baseurl }}" rel="modal:open">
-                        <div class="title">{{ post.title }}</div>
-                        <div class="desc">{{ post.subtitle }}</div>
+                        <h1 class="title">{{ post.title }}</h1>
+                        <h2 class="subtitle">{{ post.subtitle }}</h2>
                     </a>
                 </div>
             {% endfor %}

@@ -38,11 +38,11 @@ body{
 
 #jpreBar {
 background-size:300px;
-background:#000;
+background: $c-black;
 }
 
 #jprePercentage {
-	color:#000;
+	color: $c-black;
 	transform:rotate(90deg);
 	float:left;
   font-weight: 300;

@@ -4,11 +4,16 @@
         <h2 class="post-subtitle">Design Concept</h1>
         <p>The result of a desire to explore negative space as an element and some bird photos I’d taken… and an application for Concordia University coming up.</p>
 
-        <script>
-            var $container = $('.image-container').masonry();
-            $container.imagesLoaded( function() {
-              $container.masonry();
-            });
-        </script>
     </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
 </div>

@@ -8,11 +8,16 @@
 <img class="item w1" src="../img/dailyui/001-signup-filled_@2x.jpg" alt="Signup concept - filled in state" />
 <img class="item w1" src="../img/dailyui/001-signup-sketch_@2x.jpg" alt="Signup concept - quick paper sketch" /></p>
 
-        <script>
-            var $container = $('.image-container').masonry();
-            $container.imagesLoaded( function() {
-              $container.masonry();
-            });
-        </script>
     </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
 </div>

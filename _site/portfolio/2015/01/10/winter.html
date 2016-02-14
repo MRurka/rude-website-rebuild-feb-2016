@@ -6,11 +6,16 @@
 
 <p><i>“I virtually only ever paint and draw elephants.Naive Prowess is an exploration that meshed both design and illustration. It was a new way to utilize my drawings and incorporate my graphic design practice. The overall look and feel, and desire to expose various layers comes from my attraction to blatant brush strokes in painting. It seems more intimate and provides an additional perspective into how the piece was created.”</i></p>
 
-        <script>
-            var $container = $('.image-container').masonry();
-            $container.imagesLoaded( function() {
-              $container.masonry();
-            });
-        </script>
     </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
 </div>

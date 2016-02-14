@@ -7,11 +7,16 @@ layout: content
         <h1 class="post-title">{{ page.title }}</h1>
         <h2 class="post-subtitle">{{ page.subtitle }}</h1>
         {{ content }}
-        <script>
-            var $container = $('.image-container').masonry();
-            $container.imagesLoaded( function() {
-              $container.masonry();
-            });
-        </script>
     </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
 </div>

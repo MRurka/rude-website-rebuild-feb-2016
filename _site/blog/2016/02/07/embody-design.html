@@ -1,6 +1,6 @@
 <div class="site-container">
     <div class="container">
-        <h1 class="post-title">Embody Design (Part 1)</h1>
+        <h1 class="post-title">Embody Design (Part_1)</h1>
         <h2 class="post-subtitle">My Obsession from Kung Fu to Design</h1>
         <p>You’ll hear me say, “Design is my life”. I like to fantasize this is my calling. Though, I can’t reasonably believe this given my serendipitous involvement in design.</p>
 
@@ -25,11 +25,16 @@
 <p>Part 2, later. My design enlightenment. </p>
 
 
-        <script>
-            var $container = $('.image-container').masonry();
-            $container.imagesLoaded( function() {
-              $container.masonry();
-            });
-        </script>
     </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
 </div>

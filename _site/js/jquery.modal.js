@@ -11,7 +11,7 @@
     var remove, target;
     this.$body = $('body');
     this.options = $.extend({}, $.modal.defaults, options);
-    this.options.doFade = !isNaN(parseInt(this.options.fadeDuration, 10));
+    this.options.doFade = !isNaN(parseInt(this.options.fadeDuration, 1000));
     if (el.is('a')) {
       target = el.attr('href');
       //Select element by id from href
@@ -71,7 +71,6 @@
       this.unblock();
       this.hide();
       $(document).off('keydown.modal');
-      $("nav a").click();
     },
 
     block: function() {
@@ -188,13 +187,13 @@
     zIndex: 1,
     escapeClose: true,
     clickClose: true,
-    closeText: 'XXX',
+    closeText: '',
     closeClass: 'modal-close',
     modalClass: "modal",
     spinnerHtml: null,
     showSpinner: true,
     showClose: true,
-    fadeDuration: 500,   // Number of milliseconds the fade animation takes.
+    fadeDuration: 1500,   // Number of milliseconds the fade animation takes.
     fadeDelay: 1.0        // Point during the overlay's fade-in that the modal begins to fade in (.5 = 50%, 1.5 = 150%, etc.)
   };
 

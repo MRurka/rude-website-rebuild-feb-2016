@@ -6,11 +6,16 @@
 <br /><b>Flip 2:</b> Visceral intrigue, reading <i>“Fucking long”</i>.
 <br /><b>Flip 3:</b> Eyes continue, reading <i>“Fucking long and hard”</i>. Moving onto the tagline below incites the double take, figuring out the profanity actually reads “Rurking long and hard”.</p>
 
-        <script>
-            var $container = $('.image-container').masonry();
-            $container.imagesLoaded( function() {
-              $container.masonry();
-            });
-        </script>
     </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
 </div>

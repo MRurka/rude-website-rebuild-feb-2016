@@ -21,7 +21,7 @@
 		loaderVPos: '75%',
 		splashID: '#jpreContent',
 		showSplash: true,
-		showPercentage: true,
+		showPercentage: false,
 		autoClose: true,
 		closeBtnText: 'Start!',
 		onetimeLoad: false,

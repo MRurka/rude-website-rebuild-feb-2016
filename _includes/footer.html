@@ -11,19 +11,27 @@
     // Screen Transition
     //
     $( document ).ready(function() {
+
+        // Screen Transitions
         $("nav a").click(function(){
             var cls = $(this).attr('id')
             $(".content").fadeOut(500);
-            $('.' + cls).delay(500).fadeIn(1000);
-            $(".modal-post").fadeOut(500);
             $(".landing .logo").fadeOut(500);
+            $('.' + cls).delay(500).fadeIn(1000);
             return false;
         });
-        $("section.design a").click(function(){
-            // $("section.design").fadeOut(500);
+
+        // Hide Modal
+        $("nav a").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
         });
-        $("section.blog a").click(function(){
-            // $("section.blog").fadeOut(500);
+
+        // Active Class to Nav Item
+        $("#work, #about, #blog").click(function() {
+            var $links = $("#work, #about, #blog");
+            $links.not($(this)).removeClass('active');
+            $(this).addClass('active');
         });
     });
 </script>

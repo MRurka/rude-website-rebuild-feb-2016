@@ -2,7 +2,7 @@
 
 layout: post
 date:   2015-11-23 21:35:54
-categories: blog
+categories: 
 
 title: "UI001 -- Signup"
 subtitle: Part of the 100 days of UI challenge. This first piece is a signup concept.
