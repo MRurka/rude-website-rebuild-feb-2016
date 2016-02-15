@@ -88,62 +88,79 @@
         <div class="items">
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/08/10/SelectiveFew.html" rel="modal:open">
-                        <h1 class="title">Selective Few</h1>
-                        <h2 class="subtitle">Ecommerce Company</h2>
+                    <a id="7ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/08/10/SelectiveFew.html" rel="modal:open">
+                        <h1 class="title">Selectivefew</h1>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/08/09/Nu-Messenger.html" rel="modal:open">
+                    <a id="8ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/08/09/Nu-Messenger.html" rel="modal:open">
                         <h1 class="title">Nu Messenger</h1>
-                        <h2 class="subtitle">Social Web Application</h2>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/winter.html" rel="modal:open">
-                        <h1 class="title">Naive Prowess</h1>
-                        <h2 class="subtitle">Illustration</h2>
+                    <a id="1ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/winter.html" rel="modal:open">
+                        <h1 class="title">Winter</h1>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/rurking.html" rel="modal:open">
-                        <h1 class="title">Rurking Hard</h1>
-                        <h2 class="subtitle">Branding Concept</h2>
+                    <a id="2ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/rurking.html" rel="modal:open">
+                        <h1 class="title">Rurking</h1>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/ep.html" rel="modal:open">
-                        <h1 class="title">EP</h1>
-                        <h2 class="subtitle">Fine Art</h2>
+                    <a id="6ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/ep.html" rel="modal:open">
+                        <h1 class="title">Ep</h1>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/RED.html" rel="modal:open">
-                        <h1 class="title">RED</h1>
-                        <h2 class="subtitle">Design Concept</h2>
+                    <a id="3ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/RED.html" rel="modal:open">
+                        <h1 class="title">Red</h1>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/Ornithologie.html" rel="modal:open">
+                    <a id="4ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/Ornithologie.html" rel="modal:open">
                         <h1 class="title">Ornithologie</h1>
-                        <h2 class="subtitle">Design Concept</h2>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
                 <div class="item">
-                    <a href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/KAA.html" rel="modal:open">
-                        <h1 class="title">KAA</h1>
-                        <h2 class="subtitle">Brand Concept</h2>
+                    <a id="5ru" href="/rude-website-rebuild-feb-2016/portfolio/2015/01/10/KAA.html" rel="modal:open">
+                        <h1 class="title">Kaa</h1>
+                        <!-- <h2 class="subtitle"></h2> -->
                     </a>
                 </div>
             
         </div>
+        
+            <div id="7ru" class="item-background" style="background-image:url(img/work/backgrounds/background-sf.jpg)"></div>
+        
+            <div id="8ru" class="item-background" style="background-image:url(img/port/norm/nu/background.gif)"></div>
+        
+            <div id="1ru" class="item-background" style="background-image:url(img/work/backgrounds/background-naive-prowess.jpg)"></div>
+        
+            <div id="2ru" class="item-background" style="background-image:url(img/work/backgrounds/background-rurking.jpg)"></div>
+        
+            <div id="6ru" class="item-background" style="background-image:url(img/work/backgrounds/background-ep.jpg)"></div>
+        
+            <div id="3ru" class="item-background" style="background-image:url(img/work/backgrounds/background-red.jpg)"></div>
+        
+            <div id="4ru" class="item-background" style="background-image:url(img/work/backgrounds/background-orni.jpg)"></div>
+        
+            <div id="5ru" class="item-background" style="background-image:url(img/work/backgrounds/background-kaa.jpg)"></div>
+        
     </div>
 </section>
 
@@ -222,6 +239,68 @@
             $(this).addClass('active');
         });
     });
+
+    // Hide items except hovered
+    // $('.index-gall .item').hover(
+    //     function() {
+    //         $(".index-gall .item:not(:hover)").css({"opacity":"0"});
+    //     },
+    //     function() {
+    //         $(".index-gall .item").css({"opacity":"1"});
+    //     }
+    // );
+
+    // TOGGLE BACKGROUND IMAGE IN WORK SECTION ON ITEM HOVER
+    
+        $("section.work .item a#7ru").hover(function() {
+            $("#7ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#7ru.item-background").css("opacity", "0");  
+        });
+    
+        $("section.work .item a#8ru").hover(function() {
+            $("#8ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#8ru.item-background").css("opacity", "0");  
+        });
+    
+        $("section.work .item a#1ru").hover(function() {
+            $("#1ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#1ru.item-background").css("opacity", "0");  
+        });
+    
+        $("section.work .item a#2ru").hover(function() {
+            $("#2ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#2ru.item-background").css("opacity", "0");  
+        });
+    
+        $("section.work .item a#6ru").hover(function() {
+            $("#6ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#6ru.item-background").css("opacity", "0");  
+        });
+    
+        $("section.work .item a#3ru").hover(function() {
+            $("#3ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#3ru.item-background").css("opacity", "0");  
+        });
+    
+        $("section.work .item a#4ru").hover(function() {
+            $("#4ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#4ru.item-background").css("opacity", "0");  
+        });
+    
+        $("section.work .item a#5ru").hover(function() {
+            $("#5ru.item-background").css("opacity", "1");  
+          }, function(){
+            $("#5ru.item-background").css("opacity", "0");  
+        });
+    
+
 </script>
 <script>
     //

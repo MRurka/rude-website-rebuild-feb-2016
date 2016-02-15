@@ -34,6 +34,26 @@
             $(this).addClass('active');
         });
     });
+
+    // Hide items except hovered
+    // $('.index-gall .item').hover(
+    //     function() {
+    //         $(".index-gall .item:not(:hover)").css({"opacity":"0"});
+    //     },
+    //     function() {
+    //         $(".index-gall .item").css({"opacity":"1"});
+    //     }
+    // );
+
+    // TOGGLE BACKGROUND IMAGE IN WORK SECTION ON ITEM HOVER
+    {% for post in site.categories.portfolio %}
+        $("section.work .item a#{{ post.port-id }}").hover(function() {
+            $("#{{ post.port-id }}.item-background").css("opacity", "1");  
+          }, function(){
+            $("#{{ post.port-id }}.item-background").css("opacity", "0");  
+        });
+    {% endfor %}
+
 </script>
 <script>
     //

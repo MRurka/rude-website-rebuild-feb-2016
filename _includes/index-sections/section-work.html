@@ -4,12 +4,15 @@
         <div class="items">
             {% for post in site.categories.portfolio %}
                 <div class="item">
-                    <a href="{{ post.url | prepend: site.baseurl }}" rel="modal:open">
+                    <a id="{{ post.port-id }}" href="{{ post.url | prepend: site.baseurl }}" rel="modal:open">
                         <h1 class="title">{{ post.title }}</h1>
-                        <h2 class="subtitle">{{ post.subtitle }}</h2>
+                        <!-- <h2 class="subtitle">{{ post.subtitle }}</h2> -->
                     </a>
                 </div>
             {% endfor %}
         </div>
+        {% for post in site.categories.portfolio %}
+            <div id="{{ post.port-id }}" class="item-background" style="background-image:url({{ post.img-background }})"></div>
+        {% endfor %}
     </div>
 </section>

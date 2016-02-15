@@ -5,33 +5,7 @@ date:   2015-08-10 21:35:54
 categories: portfolio
 port-id: 7ru
 
-img-background: img/port/norm/background-sf.jpg
-thumb:	
-w-thumb:
-
-title:  "Selective Few"
-subtitle: Ecommerce Company
-w-title: 2
-
-img-1:	img/port/norm/sf-home.jpg
-alt-1:	
-w-1:	1
-
-img-2:	img/port/norm/sf-category.jpg
-alt-2:	
-w-2:	3
-
-img-3:	img/port/norm/sf-product.jpg
-alt-3:	
-w-3:	3
-
-img-4:  img/port/norm/sf-boutique.jpg
-alt-4:	
-w-4:	1
-
-img-5:  img/port/norm/sf-boutique-mac.jpg
-alt-5:	
-w-5:	3
+img-background: img/work/backgrounds/background-sf.jpg
 
 ---
 

@@ -6,44 +6,6 @@ categories: portfolio
 port-id: 8ru
 
 img-background: img/port/norm/nu/background.gif
-thumb:	
-w-thumb:
-
-title:  "Nu Messenger"
-subtitle: Social Web Application
-w-title: 4
-
-img-1:	img/port/norm/nu/header-1.jpg
-alt-1:	
-w-1:	1
-
-img-2:	img/port/norm/nu/nu-home-1.jpg
-alt-2:	
-w-2:	3
-
-img-3:	img/port/norm/nu/nu-app-store-1.jpg
-alt-3:	
-w-3:	4
-
-img-4:	img/port/norm/nu/header-2.jpg
-alt-4:	
-w-4:	1
-
-img-5:	img/port/norm/nu/nu-home-2.jpg
-alt-5:	
-w-5:	3
-
-img-6:	img/port/norm/nu/nu-screens-2.jpg
-alt-6:	
-w-6:	4
-
-img-7:	img/port/norm/nu/header-3.jpg
-alt-7:	
-w-7:	1
-
-img-8:	img/port/norm/nu/nu-screens-3.gif
-alt-8:	
-w-8:	3
 
 ---
 

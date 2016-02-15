@@ -71,6 +71,21 @@ section.content {
   max-height: 100%;
   display: none; }
 
+section.work .item-background {
+  background: #FF9595;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .5s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  section.work .item-background.active {
+    opacity: 1; }
 section.work .items .item {
   width: calc(100% / 3.1);
   height: 10em;
@@ -85,6 +100,9 @@ section.work .items .item {
     transition: all .25s ease; }
     section.work .items .item a:hover {
       border-color: #FF9595; }
+      section.work .items .item a:hover h1 {
+        color: #FF9595;
+        transition: all .25s ease; }
 
 section.blog .items .item {
   margin: 0 0 2em 0; }
