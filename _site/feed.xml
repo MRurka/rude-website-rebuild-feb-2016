@@ -5,8 +5,8 @@
     <description></description>
     <link>rurkadesign.com/rude-website-rebuild-feb-2016/</link>
     <atom:link href="rurkadesign.com/rude-website-rebuild-feb-2016/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Feb 2016 22:41:05 -0500</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2016 22:41:05 -0500</lastBuildDate>
+    <pubDate>Mon, 15 Feb 2016 23:23:04 -0500</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2016 23:23:04 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -140,9 +140,17 @@ Because of the rotation of the Earth, a bullet does not fly straight from the ba
       </item>
     
       <item>
-        <title>Selectivefew</title>
-        <description>&lt;p&gt;&lt;b&gt;Product Designer, 9 months.&lt;/b&gt;&lt;br /&gt;
-Selective Few is an Ecommerce company that sells rare fashion from the worlds top boutiques. Empowering traditional brick and mortar boutiques with a beautiful online presence and the reach of a global market. Selective Few is also a graduate of the &lt;a href=&quot;http://founderfuel.com/en/&quot; target=&quot;_blank&quot;&gt;FounderFuel Program&lt;/a&gt;, one of Canada’s top startup incubator, based in Montreal, QC. &lt;/p&gt;
+        <title>Selective Few</title>
+        <description>&lt;p&gt;&lt;b&gt;Product Designer, 9 months.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Selective Few is an Ecommerce company that sells rare fashion from the worlds top boutiques. Empowering traditional brick and mortar boutiques with a beautiful online presence and the reach of a global market. Selective Few is also a graduate of the &lt;a href=&quot;http://founderfuel.com/en/&quot; target=&quot;_blank&quot;&gt;FounderFuel Program&lt;/a&gt;, one of Canada’s top startup incubator, based in Montreal, QC. &lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/sf/sf-home.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/sf/sf-category.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/sf/sf-product.jpg&quot; /&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Working with the Creative Director, &lt;a href=&quot;https://www.linkedin.com/pub/andrew-peker/2a/539/779&quot; target=&quot;_blank&quot;&gt;Andrew Peker&lt;/a&gt;, we produce various content that accurately reflect the brand, as well as the uncompromising quality of the products we sold. I also worked closely with the development team, working out the best possible user experiences within our start-up-driven limitations. Product Development Process was typically: Research, exploration and working with Creative Director to produce mock ups for the development team. Once the mockups were built and functional, they were be passed back to me for style touch ups (CSS) and final QA. At SF, I:&lt;/p&gt;
 
@@ -156,6 +164,11 @@ Selective Few is an Ecommerce company that sells rare fashion from the worlds to
   &lt;li&gt;Polished the website elements and various parts as they were built, with CSS.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/sf/sf-boutique.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/sf/sf-boutique-mac.jpg&quot; /&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Mon, 10 Aug 2015 17:35:54 -0400</pubDate>
         <link>rurkadesign.com/rude-website-rebuild-feb-2016/portfolio/2015/08/10/SelectiveFew.html</link>
@@ -182,7 +195,27 @@ Nu Messenger is an accessible, lightweight, hyper fast messaging app centered ar
 &lt;p&gt;&lt;b&gt;The Story&lt;/b&gt;&lt;br /&gt;
 Nu Messenger is the product of a divergent evolution from Hive, which was initially destined to be a Social Media Managing platform for businesses of any size. Going through the &lt;a href=&quot;http://founderfuel.com/en/&quot; target=&quot;_blank&quot;&gt;FounderFuel&lt;/a&gt; Hive pivoted to become the holy grail of commenting plugins, similar to Disqus. &lt;/p&gt;
 
-&lt;p&gt;The commenting world is limited to the boundaries of the environment it’s applied to (e.g. an article on a news site). We envisioned a world of no boundaries, where you could easily comment, with zero barriers to entry, and also take it away with you on the go, in app form, web or native. From there, we were inevitably creating a communication platform, centered around topics. And this is where we narrowed our energy to develope an MVP messenger. &lt;/p&gt;
+&lt;p&gt;The commenting world is limited to the boundaries of it’s environment (e.g. an article on a news site). We envisioned a world of no boundaries, where you could easily comment, with zero barriers to entry, and also take it away with you on the go, in app form, web or native. From there, we were inevitably creating a communication platform, centered around topics. And this is where we narrowed our energy to develope an MVP messenger. &lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w1&quot; src=&quot;./img/work/nu/header-1.jpg&quot; /&gt;
+    &lt;img class=&quot;w3&quot; src=&quot;./img/work/nu/nu-home-1.jpg&quot; /&gt;
+    &lt;img class=&quot;w4&quot; src=&quot;./img/work/nu/nu-app-store-1.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w1&quot; src=&quot;./img/work/nu/header-2.jpg&quot; /&gt;
+    &lt;img class=&quot;w3&quot; src=&quot;./img/work/nu/nu-home-2.jpg&quot; /&gt;
+    &lt;img class=&quot;w4&quot; src=&quot;./img/work/nu/nu-screens-2.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w1&quot; src=&quot;./img/work/nu/header-3.jpg&quot; /&gt;
+    &lt;img class=&quot;w3&quot; src=&quot;./img/work/nu/nu-screens-3.gif&quot; /&gt;
+&lt;/div&gt;
 
 </description>
         <pubDate>Sun, 09 Aug 2015 17:35:54 -0400</pubDate>
@@ -195,36 +228,55 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
       </item>
     
       <item>
-        <title>Jelly Invoice</title>
+        <title>Jelly Invoice V1</title>
         <description>&lt;p&gt;A flexible solution for producing invoices and keeping them neatly organized on your local or shared drive.&lt;/p&gt;
 
-&lt;p&gt;Extending &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;’s ability to easily create static web pages with it’s blog-aware features, Jelly has been adapted to output invoices in place of blogs. Jelly calculates for you, hourly or fixed pricing, with or without tax needs.&lt;/p&gt;
+&lt;p&gt;Extending &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;’s ability to easily create static web pages (blogs) with its many blog-aware features, Jelly has been adapted to output invoices in place of blogs. Jelly calculates for you, hourly or fixed pricing, with or without tax needs.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Version 1.0&lt;/b&gt;&lt;br /&gt;
-Check out the &lt;a href=&quot;http://mrurka.github.io/jelly-invoice-website/&quot; target=&quot;_blank&quot;&gt;Website&lt;/a&gt; for download info, or check out the &lt;a href=&quot;http://mrurka.github.io/jelly-invoice/&quot; target=&quot;_blank&quot;&gt;Demo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://mrurka.github.io/jelly-invoice-website/&quot; target=&quot;_blank&quot;&gt;Jelly Invoicing version 1.0&lt;/a&gt; to download the code, or simply check out the &lt;a href=&quot;http://mrurka.github.io/jelly-invoice/&quot; target=&quot;_blank&quot;&gt;Demo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;item w2&quot; src=&quot;../img/port/norm/jelly-logo.png&quot; alt=&quot;Jelly Invoice Logo&quot; style=&quot;display:block; width:180px; height:auto; margin:50px auto 50px auto;&quot; /&gt;
-&lt;img class=&quot;item w1&quot; src=&quot;../img/port/norm/jelly-invoice-screen1.jpg&quot; alt=&quot;Preview of Jelly Invoice&#39;s Index of Invoices&quot; /&gt;
-&lt;img class=&quot;item w1&quot; src=&quot;../img/port/norm/jelly-invoice-screen2.jpg&quot; alt=&quot;Preview of Jelly Invoice Invoice Page&quot; /&gt;
-&lt;img class=&quot;item w1&quot; src=&quot;../img/port/norm/jelly-invoice-screen3.jpg&quot; alt=&quot;Preview of Jelly Invoice Exporting an invoice&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w4&quot; src=&quot;./img/work/jelly/jelly-invoice-screen1.jpg&quot; alt=&quot;Preview of Jelly Invoice&#39;s Index of Invoices&quot; /&gt;
+    &lt;img class=&quot;w4&quot; src=&quot;./img/work/jelly/jelly-invoice-screen2.jpg&quot; alt=&quot;Preview of Jelly Invoice Invoice Page&quot; /&gt;
+    &lt;img class=&quot;w4&quot; src=&quot;./img/work/jelly/jelly-invoice-screen3.jpg&quot; alt=&quot;Preview of Jelly Invoice Exporting an invoice&quot; /&gt;
+&lt;/div&gt;
 
-&lt;p&gt;And an early tease image for Jelly
-&lt;img class=&quot;item w1&quot; src=&quot;../img/port/norm/jelly-invoice-wide.jpg&quot; alt=&quot;Promo photo for Jelly Invoice&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Early Artwork for Jelly: &lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w4&quot; src=&quot;./img/work/jelly/jelly-invoice-wide.jpg&quot; alt=&quot;Promo photo for Jelly Invoice&quot; /&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 17:35:54 -0400</pubDate>
-        <link>rurkadesign.com/rude-website-rebuild-feb-2016/blog/2015/07/01/jelly-invoicing.html</link>
-        <guid isPermaLink="true">rurkadesign.com/rude-website-rebuild-feb-2016/blog/2015/07/01/jelly-invoicing.html</guid>
+        <link>rurkadesign.com/rude-website-rebuild-feb-2016/portfolio/2015/07/01/jelly-invoicing.html</link>
+        <guid isPermaLink="true">rurkadesign.com/rude-website-rebuild-feb-2016/portfolio/2015/07/01/jelly-invoicing.html</guid>
         
         
-        <category>blog</category>
+        <category>portfolio</category>
         
       </item>
     
       <item>
-        <title>Winter</title>
+        <title>Naive Prowess</title>
         <description>&lt;p&gt;Pen &amp;amp; digital illustration published in the Applied Arts Magazine, 2013 Student Awards Edition and subsiquently nominated for an AACE Award (top 10). Full details here: &lt;a href=&quot;http://www.appliedartsmag.com/winners_gallery/archive/?id=1086&amp;amp;year=2013&amp;amp;clip=1&quot; target=&quot;_blank&quot;&gt;Applied Arts Magazine&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;i&gt;“I virtually only ever paint and draw elephants.Naive Prowess is an exploration that meshed both design and illustration. It was a new way to utilize my drawings and incorporate my graphic design practice. The overall look and feel, and desire to expose various layers comes from my attraction to blatant brush strokes in painting. It seems more intimate and provides an additional perspective into how the piece was created.”&lt;/i&gt;&lt;/p&gt;
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w4&quot; src=&quot;./img/work/winter/naive-prowess.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;i&gt;“I virtually only ever paint and draw elephants. Naive Prowess is an exploration that meshed both design and illustration. It was a new way to utilize my drawings and incorporate my graphic design practice. The overall look and feel, and desire to expose various layers comes from my attraction to blatant brush strokes in painting. It seems more intimate and provides an additional perspective into how the piece was created.”&lt;/i&gt;&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/winter/naive-prowess-magazine.jpg&quot; /&gt;
+    &lt;!-- &lt;img class=&quot;w2&quot; src=&quot;./img/work/winter/naive-prowess-applied-arts-award.jpg&quot;&gt; --&gt;
+    &lt;!-- &lt;img class=&quot;w2&quot; src=&quot;./img/work/winter/naive-prowess-sketch.jpg&quot;&gt; --&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/winter/naive-prowess-illustrator.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/winter/naive-prowess-photoshop.jpg&quot; /&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 16:35:54 -0500</pubDate>
         <link>rurkadesign.com/rude-website-rebuild-feb-2016/portfolio/2015/01/10/winter.html</link>
@@ -236,10 +288,19 @@ Check out the &lt;a href=&quot;http://mrurka.github.io/jelly-invoice-website/&qu
       </item>
     
       <item>
-        <title>Rurking</title>
+        <title>Rurking long and hard</title>
         <description>&lt;p&gt;&lt;br /&gt;&lt;b&gt;Flip 1:&lt;/b&gt; Awareness of a design entity. 
 &lt;br /&gt;&lt;b&gt;Flip 2:&lt;/b&gt; Visceral intrigue, reading &lt;i&gt;“Fucking long”&lt;/i&gt;.
 &lt;br /&gt;&lt;b&gt;Flip 3:&lt;/b&gt; Eyes continue, reading &lt;i&gt;“Fucking long and hard”&lt;/i&gt;. Moving onto the tagline below incites the double take, figuring out the profanity actually reads “Rurking long and hard”.&lt;/p&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/rurking/rurking-1.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/rurking/rurking-2.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/rurking/rurking-3.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/rurking/rurking-4.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/rurking/rurking-5.jpg&quot; /&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 16:35:54 -0500</pubDate>
         <link>rurkadesign.com/rude-website-rebuild-feb-2016/portfolio/2015/01/10/rurking.html</link>
@@ -251,12 +312,25 @@ Check out the &lt;a href=&quot;http://mrurka.github.io/jelly-invoice-website/&qu
       </item>
     
       <item>
-        <title>Ep</title>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;b&gt;1. EFS1&lt;/b&gt; Ink, Chalk, Acrylic, Pencil, China Marker on Stone Paper.
-&lt;br /&gt;&lt;b&gt;2. EFS3&lt;/b&gt; Ink, Chalk, Pastel Shavings, Wool, Acrylic, China Marker on Stone Paper.
-&lt;br /&gt;&lt;b&gt;3. EP16&lt;/b&gt; Acrylic, Ink well pen on Canvas
-&lt;br /&gt;&lt;b&gt;4. EP14&lt;/b&gt; Acrylic, Texture Pastes
-&lt;br /&gt;&lt;b&gt;5. Untitled&lt;/b&gt; Acrylic, Pencil, Gesso&lt;/p&gt;
+        <title>EP</title>
+        <description>&lt;p&gt;My children. A few of them.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;EP14&lt;/b&gt; Acrylic, texture pastes on canvas&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;EFS1&lt;/b&gt; Ink, chalk, acrylic, pencil, china marker on stone paper&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;EFS3&lt;/b&gt; Ink, chalk, pastel shavings, coffee grind, wool, acrylic, china marker on stone paper&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;EP15&lt;/b&gt; Acrylic, ink well pen on canvas&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Untitled&lt;/b&gt; Acrylic, pencil, gesso on cold-press watercolour paper&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;image-container&quot;&gt;
+    &lt;img class=&quot;clear&quot; src=&quot;&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/ep/ep14.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/ep/efs1.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/ep/efs3.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/ep/ep15.jpg&quot; /&gt;
+    &lt;img class=&quot;w2&quot; src=&quot;./img/work/ep/ep-study.jpg&quot; /&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 16:35:54 -0500</pubDate>
         <link>rurkadesign.com/rude-website-rebuild-feb-2016/portfolio/2015/01/10/ep.html</link>

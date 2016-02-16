@@ -5,8 +5,18 @@ date:   2015-01-10 21:35:54
 categories: portfolio
 port-id: 4ru
 
+title: Ornithologie
+subtitle: Grid Exploration
+
 img-background: img/work/backgrounds/background-orni.jpg
 
 ---
 
-The result of a desire to explore negative space as an element and some bird photos I'd taken... and an application for Concordia University coming up.
+The result of a desire to explore negative space as an element and with some bird photos I took earlier the day.
+
+<div class="image-container">
+    <img class="clear" src=""/>
+    <img class="w2" src="./img/work/orni/orni-cover.jpg"/>
+    <img class="w2" src="./img/work/orni/orni-book.jpg"/>
+    <img class="w2" src="./img/work/orni/orni-spread.jpg"/>
+</div>

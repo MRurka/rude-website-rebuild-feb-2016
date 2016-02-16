@@ -59,7 +59,7 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif; }
 
 .site-container {
-  padding: 10em 5vw 0; }
+  padding: 10em 5vw 5em; }
 
 .container {
   max-width: 1200px;
@@ -230,7 +230,8 @@ nav {
         margin: 0 0 1em 0;
         font-weight: 600;
         text-transform: uppercase;
-        display: inline-block; }
+        display: inline-block;
+        display: none; }
       nav ul li a svg {
         height: 1.4em;
         display: block;
@@ -344,6 +345,13 @@ body.loaded .landing .logo svg {
       margin: 1em 0 0 0;
       font-size: .8em;
       text-align: right; }
+.modal-content ul {
+  font-size: 1.3em;
+  padding: 0 0 0 1.5em;
+  list-style-type: katakana-iroha; }
+  .modal-content ul li {
+    padding: 0 0 0 1em;
+    margin: 0 0 .5em; }
 
 .modal-kill {
   height: 5em;
@@ -454,24 +462,31 @@ body.loaded .landing .logo svg {
     opacity: 1; } }
 .image-container {
   width: calc(100% + (0.5em * 2));
-  margin-left: calc(0.5em * -1); }
+  margin-left: calc(0.5em * -1);
+  margin-bottom: 2em; }
   .image-container img {
     width: 100%;
     height: auto;
     padding: 0.5em; }
+  .image-container .clear {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    opacity: 0;
+    overflow: hidden; }
   .image-container .w1 {
-    width: 25%; }
+    width: 24.5%; }
   .image-container .w2 {
-    width: 50%; }
+    width: 49.5%; }
   .image-container .w3 {
-    width: 75%; }
+    width: 74.5%; }
   .image-container .w4 {
-    width: 100%; }
+    width: 99.5%; }
   @media screen and (max-width: 780px) {
     .image-container .w1 {
-      width: 50%; }
+      width: 100%; }
     .image-container .w2 {
-      width: 50%; }
+      width: 100%; }
     .image-container .w3 {
       width: 100%; }
     .image-container .w4 {
