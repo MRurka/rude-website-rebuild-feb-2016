@@ -4,6 +4,7 @@ layout: post
 date:   2015-01-10 21:35:54
 categories: portfolio
 port-id: 2ru
+text-dark-light: light
 
 title: Rurking long and hard
 subtitle: Illusion

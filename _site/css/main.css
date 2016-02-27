@@ -60,6 +60,9 @@ html, body {
 
 .site-container {
   padding: 10em 5vw 5em; }
+  @media (max-width: 480px) {
+    .site-container {
+      padding: 5em 0 0 0; } }
 
 .container {
   max-width: 1200px;
@@ -86,18 +89,37 @@ section.work .item-background {
   background-repeat: no-repeat; }
   section.work .item-background.active {
     opacity: 1; }
+  @media (max-width: 480px) {
+    section.work .item-background {
+      display: none; } }
 section.work .items .item {
   width: calc(100% / 3.1);
   height: 10em;
   display: inline-block;
   padding: 0 .75em 1.5em .75em; }
+  @media (max-width: 480px) {
+    section.work .items .item {
+      width: 100%;
+      padding: 0;
+      height: 20em; } }
   section.work .items .item a {
     border: 2px solid #333;
     padding: .5em;
     display: block;
     height: 100%;
     color: #333;
-    transition: all .25s ease; }
+    transition: all .25s ease;
+    background-size: 0%; }
+    @media (max-width: 480px) {
+      section.work .items .item a {
+        border: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    section.work .items .item a h1.title.light {
+      color: #fff; }
+    section.work .items .item a h1.title.dark {
+      color: #333; }
     section.work .items .item a:hover {
       border-color: #FF9595; }
       section.work .items .item a:hover h1 {

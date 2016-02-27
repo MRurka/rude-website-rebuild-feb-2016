@@ -4,6 +4,7 @@ layout: post
 date:   2015-07-01 21:35:54
 categories: portfolio
 port-id: 9ru
+text-dark-light: light
 
 title: "Jelly Invoice V1"
 subtitle: Invoicing webapp for ghetto freelancers
