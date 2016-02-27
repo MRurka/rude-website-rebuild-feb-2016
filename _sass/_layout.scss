@@ -106,14 +106,38 @@ section.work {
 }
 
 section.about {
+    .container {
+        @media (max-width: $screen-small) {
+            padding:0 8vw
+        }
+    }
     p {       
         font-size: 2em;
         line-height: 1.3em;
         color:#606469;
         font-weight: 600;
         margin:0 0 1em 0;
+        @media (max-width: $screen-small) {
+            font-size: 1.54em;
+        }
         a {
             color:$c-main;
+            @media (min-width: $screen-medium) {
+                span {
+                    transition: all 4s ease;
+                    display: inline-block;
+                }
+                &:hover {
+                    span {
+                        &:nth-child(odd) {
+                            transform:translateY(-.05em);
+                        }
+                        &:nth-child(even) {
+                            transform:translateY(.05em);
+                        }
+                    }
+                }
+            }
         }
         b {
             font-weight: 700;

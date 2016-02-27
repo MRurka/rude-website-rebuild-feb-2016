@@ -139,14 +139,28 @@ section.work .items .item {
         section.work .items .item a:hover h1.dark {
           color: #333; }
 
+@media (max-width: 480px) {
+  section.about .container {
+    padding: 0 8vw; } }
 section.about p {
   font-size: 2em;
   line-height: 1.3em;
   color: #606469;
   font-weight: 600;
   margin: 0 0 1em 0; }
+  @media (max-width: 480px) {
+    section.about p {
+      font-size: 1.54em; } }
   section.about p a {
     color: #FF9595; }
+    @media (min-width: 780px) {
+      section.about p a span {
+        transition: all 4s ease;
+        display: inline-block; }
+      section.about p a:hover span:nth-child(odd) {
+        transform: translateY(-0.05em); }
+      section.about p a:hover span:nth-child(even) {
+        transform: translateY(0.05em); } }
   section.about p b {
     font-weight: 700; }
 
@@ -352,6 +366,10 @@ body.loaded nav ul li {
   top: calc(50% - 150px);
   position: absolute;
   transition: all 1s ease; }
+  @media (max-width: 480px) {
+    .landing {
+      width: 100%;
+      top: calc(50% - 125px); } }
   .landing .logo {
     width: 100%; }
     .landing .logo svg {
@@ -360,6 +378,11 @@ body.loaded nav ul li {
       margin: 0 auto;
       display: block;
       transition: opacity 3s ease .3s; }
+      @media (max-width: 480px) {
+        .landing .logo svg {
+          max-width: 250px;
+          max-height: 300px;
+          margin: auto; } }
 
 body.loaded .landing .logo svg {
   opacity: .1; }
