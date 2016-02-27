@@ -1,5 +1,11 @@
 
 .modal-content {
+    .container {
+        @media (max-width: $screen-small) {
+            padding:0 5vw
+        }
+    }
+    }
     h1 {
         font-size: 6em;
         font-weight: 700;
@@ -88,13 +94,12 @@
     position: absolute;
     background-color:#fff;
 
-    // display: none;
     opacity: 0;
 
-    $animation-name: modal-backdrop-fadein;
-    $animation-duration: .5s;
     $animation-delay: 0;
+    $animation-duration: .5s;
     $animation-fill: forwards;
+    $animation-name: modal-backdrop-fadein;
 
     transition: opacity .5s ease;
     -ms-animation-name: $animation-name;
