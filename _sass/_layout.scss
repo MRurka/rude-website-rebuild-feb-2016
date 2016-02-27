@@ -70,17 +70,18 @@ section.work {
                     background-size: cover;
                 }
                 h1.title {
+                    color:#333;
                     @media (max-width: $screen-small) {
                         font-size: 1.2em;
                         padding: .5em;
                         opacity: .6;
                         letter-spacing: 1px;
-                    }
-                    &.light {
-                        color:#fff;
-                    }
-                    &.dark {
-                        color:#333;
+                        &.light {
+                            color:#fff;
+                        }
+                        &.dark {
+                            color:#333;
+                        }
                     }
                 }
                 h2 {
@@ -91,9 +92,31 @@ section.work {
                     h1 {
                         color:$c-main;
                         transition: all .25s ease;
+                        &.light {
+                            color:#fff;
+                        }
+                        &.dark {
+                            color:#333;
+                        }
                     }
                 }
             }
+        }
+    }
+}
+
+section.about {
+    p {       
+        font-size: 2em;
+        line-height: 1.3em;
+        color:#606469;
+        font-weight: 600;
+        margin:0 0 1em 0;
+        a {
+            color:$c-main;
+        }
+        b {
+            font-weight: 700;
         }
     }
 }

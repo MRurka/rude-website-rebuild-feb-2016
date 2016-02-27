@@ -117,21 +117,38 @@ section.work .items .item {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; } }
-    @media (max-width: 480px) {
-      section.work .items .item a h1.title {
-        font-size: 1.2em;
-        padding: .5em;
-        opacity: .6;
-        letter-spacing: 1px; } }
-    section.work .items .item a h1.title.light {
-      color: #fff; }
-    section.work .items .item a h1.title.dark {
+    section.work .items .item a h1.title {
       color: #333; }
+      @media (max-width: 480px) {
+        section.work .items .item a h1.title {
+          font-size: 1.2em;
+          padding: .5em;
+          opacity: .6;
+          letter-spacing: 1px; }
+          section.work .items .item a h1.title.light {
+            color: #fff; }
+          section.work .items .item a h1.title.dark {
+            color: #333; } }
     section.work .items .item a:hover {
       border-color: #FF9595; }
       section.work .items .item a:hover h1 {
         color: #FF9595;
         transition: all .25s ease; }
+        section.work .items .item a:hover h1.light {
+          color: #fff; }
+        section.work .items .item a:hover h1.dark {
+          color: #333; }
+
+section.about p {
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #606469;
+  font-weight: 600;
+  margin: 0 0 1em 0; }
+  section.about p a {
+    color: #FF9595; }
+  section.about p b {
+    font-weight: 700; }
 
 @media (max-width: 480px) {
   section.blog .container {
@@ -255,7 +272,7 @@ nav {
     text-align: center;
     float: left; }
     nav ul li a {
-      padding: 1.5em 0 0 0;
+      padding: 2.5em 0 0 0;
       display: inline-block;
       cursor: pointer; }
       nav ul li a span {
