@@ -2,13 +2,17 @@
 .modal-content {
     .container {
         @media (max-width: $screen-small) {
-            padding:0 5vw
+            padding:0 8vw
         }
     }
     h1 {
         font-size: 6em;
         font-weight: 700;
         margin:0 0 .5em 0;
+        line-height: 1.2em;
+        @media (max-width: $screen-small) {
+            font-size: 2.4em;
+        }
     }
     h2 {
         font-size:3em;
@@ -17,6 +21,9 @@
         margin:0 0 1.5em 0;
         text-align: right;
         line-height: 1.2em;
+        @media (max-width: $screen-small) {
+            font-size: 2em;
+        }
     }
     p, ul {
         font-size: 1.36em;
@@ -24,6 +31,9 @@
         line-height: 1.5em;
         max-width: 740px;
         color:#444;
+        @media (max-width: $screen-small) {
+            font-size: 1.2em;
+        }
         b {
             font-weight: 600;
         }
