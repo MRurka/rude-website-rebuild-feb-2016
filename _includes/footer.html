@@ -12,13 +12,19 @@
     //
     $( document ).ready(function() {
 
+        // Hide Landing
+        $("nav a").click(function(){
+            $(".landing .logo").fadeOut(500);
+        });
+
         // Screen Transitions
         $("nav a").click(function(){
-            var cls = $(this).attr('id')
-            $(".content").fadeOut(500);
-            $(".landing .logo").fadeOut(500);
-            $('.' + cls).delay(500).fadeIn(1000);
-            return false;
+            var idName = $(this).attr('id');
+            var className = $(this).attr('class');
+            if(className !== 'active') {                
+                $(".content").fadeOut(500);
+                $('.' + idName).delay(500).fadeIn(1000);
+            }
         });
 
         // Hide Modal
