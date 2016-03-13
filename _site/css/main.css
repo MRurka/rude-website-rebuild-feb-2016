@@ -63,7 +63,7 @@ html, body {
   padding: 10em 5vw 5em; }
   @media (max-width: 480px) {
     .site-container {
-      padding: 5em 0 0 0; } }
+      padding: 0; } }
 
 .container {
   max-width: 1200px;
@@ -75,6 +75,10 @@ section.content {
   max-height: 100%;
   display: none; }
 
+@media (max-width: 480px) {
+  section.work {
+    padding-top: 8em;
+    background: #231F20; } }
 section.work .item-background {
   background: #FF9595;
   position: fixed;
@@ -140,6 +144,9 @@ section.work .items .item {
           color: #333; }
 
 @media (max-width: 480px) {
+  section.about {
+    padding-top: 7em; } }
+@media (max-width: 480px) {
   section.about .container {
     padding: 0 8vw; } }
 section.about p {
@@ -164,6 +171,9 @@ section.about p {
   section.about p b {
     font-weight: 700; }
 
+@media (max-width: 480px) {
+  section.blog {
+    padding-top: 7em; } }
 @media (max-width: 480px) {
   section.blog .container {
     padding: 0 8vw; } }
@@ -286,28 +296,36 @@ nav {
     text-align: center;
     float: left; }
     nav ul li a {
-      padding: 2.5em 0 0 0;
+      padding: 4vh 0 0 0;
       display: inline-block;
       cursor: pointer; }
       nav ul li a span {
         color: #333;
-        color: #fff;
         font-size: .7em;
         letter-spacing: 6px;
         margin: 0 0 1em 0;
         font-weight: 600;
         text-transform: uppercase;
-        display: inline-block;
-        display: none; }
+        display: inline-block; }
       nav ul li a svg {
         height: 1.4em;
         display: block;
         transition: all .25s ease;
         fill: #333; }
+        @media (max-width: 480px) {
+          nav ul li a svg {
+            height: 1.1em; } }
       nav ul li a.active svg {
         fill: #FF9595; }
       nav ul li a:hover svg {
         fill: #FA8283; }
+      @media (max-width: 480px) {
+        nav ul li a.negative span {
+          color: #fff; }
+        nav ul li a.negative svg {
+          fill: #fff; }
+        nav ul li a.negative.active svg {
+          fill: #FF9595; } }
 
 nav ul li {
   opacity: 0; }

@@ -6,7 +6,7 @@ html, body {
 .site-container {
     padding: 10em 5vw 5em;
     @media (max-width: $screen-small) {
-        padding: 5em 0 0 0;
+        padding: 0;
     }
 }
 
@@ -23,7 +23,10 @@ section.content {
 }
 
 section.work {
-
+    @media (max-width: $screen-small) {
+        padding-top: 8em;
+        background: #231F20;
+    }
     .item-background {
         background:$c-main;
         position: fixed;
@@ -106,6 +109,9 @@ section.work {
 }
 
 section.about {
+    @media (max-width: $screen-small) {
+        padding-top: 7em;
+    }
     .container {
         @media (max-width: $screen-small) {
             padding:0 8vw
@@ -146,6 +152,9 @@ section.about {
 }
 
 section.blog {
+    @media (max-width: $screen-small) {
+        padding-top: 7em;
+    }
     .container {
         @media (max-width: $screen-small) {
             padding:0 8vw

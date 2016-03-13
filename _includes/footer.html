@@ -38,6 +38,14 @@
             var $links = $("#work, #about, #blog");
             $links.not($(this)).removeClass('active');
             $(this).addClass('active');
+
+            // Add negative class to nav items
+            if($(this).is('#work')){
+                $links.addClass('negative');
+            }
+            else{
+                $links.removeClass('negative');
+            }
         });
     });
 </script>
