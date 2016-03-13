@@ -110,7 +110,7 @@ section.work {
 
 section.about {
     @media (max-width: $screen-small) {
-        padding-top: 7em;
+        padding: 7em 0 3em 0;
     }
     .container {
         @media (max-width: $screen-small) {
@@ -153,7 +153,7 @@ section.about {
 
 section.blog {
     @media (max-width: $screen-small) {
-        padding-top: 7em;
+        padding: 7em 0 3em 0;
     }
     .container {
         @media (max-width: $screen-small) {

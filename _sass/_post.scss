@@ -1,5 +1,8 @@
 
 .modal-content {
+    @media (max-width: $screen-small) {
+        padding: 7em 0 3em 0;
+    }
     .container {
         @media (max-width: $screen-small) {
             padding:0 8vw
